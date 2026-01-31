@@ -1,0 +1,26 @@
+
+import <math></math>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ping Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ping Pong</h1>
+    <canvas id="game" width="800" height="500"></canvas>
+    <div class="info">
+      <div>Left: W / S</div>
+      <div>Right: ↑ / ↓</div>
+      <div>Press Space to pause / restart</div>
+    </div>
+    <div id="scoreboard">0 : 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
